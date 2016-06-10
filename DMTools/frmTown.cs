@@ -17,12 +17,15 @@ namespace DMTools
     {
 
         private List<Building> allBuildings = new List<Building>();
+        private TownGenerator townGen;
+        private Town curTown;
 
         public frmTown()
         {
             InitializeComponent();
 
             List<Building> allBuildings = getBuildingInfo("..\\..\\Buildings.xml");
+            townGen = new TownGenerator(allBuildings);
             
 
             //Fill in the listbox of building names with the building list
@@ -61,6 +64,7 @@ namespace DMTools
 
         }
 
+        //Move this to the town generator... Maybe
         private List<Building> getBuildingInfo(string BuildingsPath)
         {
             XmlTextReader reader = new XmlTextReader(BuildingsPath);
@@ -105,6 +109,22 @@ namespace DMTools
             }
 
             return allBuildings;
+        }
+
+        private void btnCreateTown_Click(object sender, EventArgs e)
+        {
+            List<Building> requiredBuildings = new List<Building>();
+
+            //Build the list of buildings that must be in the town
+            //This is n^2 but it won't ever be long enough to be significant
+            foreach(string buildingName in lbxReqBuilding.Items)
+            {
+                requiredBuildings.Add(allBuildings.Find(Building => Building.getName().Equals(buildingName)));
+            }
+
+            curTown = new Town(townGen, cmbSize.Text, requiredBuildings);
+
+            rtbTownInfo.Text = curTown.information;
         }
     }
 }

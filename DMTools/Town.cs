@@ -12,47 +12,32 @@ namespace DMTools
         public int population;
         public List<Building> buildings;
         public string information;
+        //Later there will be a map of the town.
 
-        public Town()
+        public Town(TownGenerator townGen, string strSize, List<Building> lstReqBuildings)
         {
-
+            name = townGen.generateName();
+            population = townGen.generatePopulation(strSize);
+            buildings = new List<Building>(lstReqBuildings);
+            information = townInfo();
         }
 
-        private void createTown(List<Building> lstAllBuildings, List<String> requiredBuildings, string size)
+        //Builds a nicely formatted string of the towns information
+        private string townInfo()
         {
-            population = generatePopulation(size);
-            name = generateName();
-        }
+            StringBuilder infoBuilder = new StringBuilder();
 
-        private string generateName()
-        {
-            return "Springfield";
-        }
+            infoBuilder.Append("Name: " + name + "\n\n");
+            infoBuilder.Append("Population: " + population.ToString() + "\n\n");
+            infoBuilder.Append("Buildings: \n");
 
-        private int generatePopulation(string size)
-        {
-            Random rndNumber = new Random();
-
-            switch(size)
+            foreach(Building structure in buildings)
             {
-                //Farms have between 2 and 21
-                case ("Farm"):
-                    return Convert.ToInt32(rndNumber.NextDouble() * 19 + 2);
-                //Hamlets have between 10 and 100
-                case ("Hamlet"):
-                    return Convert.ToInt32(rndNumber.NextDouble() * 90 + 10);
-                //Villages have between 100 and 1,000
-                case ("Village"):
-                    return Convert.ToInt32(rndNumber.NextDouble() * 900 + 100);
-                //Towns have between 1,000 and 10,000
-                case ("Town"):
-                    return Convert.ToInt32(rndNumber.NextDouble() * 9000 + 100);
-                //Cities have between 10,000 and 15,000
-                case ("City"):
-                    return Convert.ToInt32(rndNumber.NextDouble() * 500 + 10000);
+                infoBuilder.Append(structure.getName() + "\n");
             }
 
-            return 100;
+            return infoBuilder.ToString();
+
         }
 
     }

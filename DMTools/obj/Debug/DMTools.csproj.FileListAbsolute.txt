@@ -8,3 +8,13 @@ c:\users\demadaha\documents\visual studio 2015\Projects\DMTools\DMTools\obj\Debu
 c:\users\demadaha\documents\visual studio 2015\Projects\DMTools\DMTools\obj\Debug\DMTools.csproj.GenerateResource.Cache
 c:\users\demadaha\documents\visual studio 2015\Projects\DMTools\DMTools\obj\Debug\DMTools.exe
 c:\users\demadaha\documents\visual studio 2015\Projects\DMTools\DMTools\obj\Debug\DMTools.pdb
+C:\Users\Demadaha\Documents\Github\DMTools\DMTools\bin\Debug\DMTools.exe.config
+C:\Users\Demadaha\Documents\Github\DMTools\DMTools\obj\Debug\DMTools.exe
+C:\Users\Demadaha\Documents\Github\DMTools\DMTools\obj\Debug\DMTools.pdb
+C:\Users\Demadaha\Documents\Github\DMTools\DMTools\bin\Debug\DMTools.exe
+C:\Users\Demadaha\Documents\Github\DMTools\DMTools\bin\Debug\DMTools.pdb
+C:\Users\Demadaha\Documents\Github\DMTools\DMTools\obj\Debug\DMTools.csprojResolveAssemblyReference.cache
+C:\Users\Demadaha\Documents\Github\DMTools\DMTools\obj\Debug\DMTools.frmHome.resources
+C:\Users\Demadaha\Documents\Github\DMTools\DMTools\obj\Debug\DMTools.frmTown.resources
+C:\Users\Demadaha\Documents\Github\DMTools\DMTools\obj\Debug\DMTools.Properties.Resources.resources
+C:\Users\Demadaha\Documents\Github\DMTools\DMTools\obj\Debug\DMTools.csproj.GenerateResource.Cache

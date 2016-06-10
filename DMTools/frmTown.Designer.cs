@@ -134,6 +134,7 @@
             this.btnCreateTown.TabIndex = 11;
             this.btnCreateTown.Text = "Create";
             this.btnCreateTown.UseVisualStyleBackColor = true;
+            this.btnCreateTown.Click += new System.EventHandler(this.btnCreateTown_Click);
             // 
             // frmTown
             // 
