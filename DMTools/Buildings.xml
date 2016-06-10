@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TOWNBUILDINGS>
+  
+  <!--Barracks for stationed soldiers-->
+  <BUILDING>
+    <NAME>Barracks</NAME>
+    <LENGTH>30</LENGTH>
+    <WIDTH>10</WIDTH>
+    <COLOR>Green</COLOR>
+  </BUILDING>
+
+  <!--Does metal work for the townsfolk-->
+  <BUILDING>
+    <NAME>Blacksmith</NAME>
+    <LENGTH>10</LENGTH>
+    <WIDTH>20</WIDTH>
+    <COLOR>Black</COLOR>
+  </BUILDING>
+
+  <!--A large place of worship-->
+  <BUILDING>
+    <NAME>Church</NAME>
+    <LENGTH>40</LENGTH>
+    <WIDTH>20</WIDTH>
+    <COLOR>WHITE</COLOR>
+  </BUILDING>
+
+  <!--The main meeting place for the townspeople-->
+  <BUILDING>
+    <NAME>Great hall</NAME>
+    <LENGTH>30</LENGTH>
+    <WIDTH>30</WIDTH>
+    <COLOR>Blue</COLOR>
+  </BUILDING>
+
+  <!--Simple home for a simple family-->
+  <BUILDING>
+    <NAME>House</NAME>
+    <LENGTH>10</LENGTH>
+    <WIDTH>10</WIDTH>
+    <COLOR>Brown</COLOR>
+  </BUILDING>
+
+  <!--A place for weary travelers to rest and for merrymaking-->
+  <BUILDING>
+    <NAME>Inn</NAME>
+    <LENGTH>30</LENGTH>
+    <WIDTH>20</WIDTH>
+    <COLOR>Blue</COLOR>
+  </BUILDING>
+
+  <!--A large tower in the center of town for defense-->
+  <BUILDING>
+    <NAME>Keep</NAME>
+    <LENGTH>30</LENGTH>
+    <WIDTH>30</WIDTH>
+    <COLOR>Blue</COLOR>
+  </BUILDING>
+
+  <!--A fancy home for fancy people-->
+  <BUILDING>
+    <NAME>Manor</NAME>
+    <LENGTH>10</LENGTH>
+    <WIDTH>10</WIDTH>
+    <COLOR>Brown</COLOR>
+  </BUILDING>
+
+  <!--A place for farmers and others to sell their wares-->
+  <BUILDING>
+    <NAME>Market</NAME>
+    <LENGTH>50</LENGTH>
+    <WIDTH>50</WIDTH>
+    <COLOR>Brown</COLOR>
+  </BUILDING>
+
+  <!--A building for a merchant to sell goods-->
+  <BUILDING>
+    <NAME>Shop</NAME>
+    <LENGTH>10</LENGTH>
+    <WIDTH>10</WIDTH>
+    <COLOR>Brown</COLOR>
+  </BUILDING>
+
+  <!--A small place of worship-->
+  <BUILDING>
+    <NAME>Shrine</NAME>
+    <LENGTH>5</LENGTH>
+    <WIDTH>5</WIDTH>
+    <COLOR>Brown</COLOR>
+  </BUILDING>
+
+  <!--Protection from outsiders-->
+  <BUILDING>
+    <NAME>Walls</NAME>
+    <LENGTH>10</LENGTH>
+    <WIDTH>10</WIDTH>
+    <COLOR>Brown</COLOR>
+  </BUILDING>
+
+  <!--A small tower to watch out for raiders-->
+  <BUILDING>
+    <NAME>WatchTower</NAME>
+    <LENGTH>10</LENGTH>
+    <WIDTH>10</WIDTH>
+    <COLOR>Brown</COLOR>
+  </BUILDING>
+
+  <!--A well for the towns water supply-->
+  <BUILDING>
+    <NAME>Well</NAME>
+    <LENGTH>5</LENGTH>
+    <WIDTH>5</WIDTH>
+    <COLOR>Blue</COLOR>
+  </BUILDING>
+
+</TOWNBUILDINGS>
